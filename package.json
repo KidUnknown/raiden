@@ -1,0 +1,24 @@
+{
+  "name": "raiden",
+  "version": "1.0.0",
+  "description": "A sub theme for thunder base",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KidUnknown/raiden.git"
+  },
+  "author": "Leo Theobald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KidUnknown/raiden/issues"
+  },
+  "homepage": "https://github.com/KidUnknown/raiden#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.15.1"
+  }
+}
