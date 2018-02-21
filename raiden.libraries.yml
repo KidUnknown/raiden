@@ -1,0 +1,12 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/styles.css: {}
+      css/print.css: { media: print }
+
+libraries-override:
+  # Remove css from main theme and drupal core
+  classy/base: false
+  bartik/base: false
+  stable/base: false

@@ -1,0 +1,35 @@
+name: Raiden
+type: theme
+description: 'A sub theme that expands on Thunder base theme'
+core: 8.x
+base theme: thunder_base
+screenshot: raiden-thunder.png
+
+libraries:
+  - raiden/global-styling
+
+# regions highlighted as 1 are inherited and # 2 are sub theme specific regions
+regions:
+  header: header                                    # 1
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content                                  # 1
+  content_fullwidth:  'Content (Edge-to-edge)'      # 2
+  sidebar_first: 'Sidebar first'                    # 1
+  sidebar_second: 'Sidebar second'                  # 1
+  featured_bottom_first: 'Featured bottom first'    # 1
+  featured_bottom_second: 'Featured bottom second'  # 1
+  featured_bottom_third: 'Featured bottom third'    # 1
+  footer: Footer                                    # 1
+
+features:
+  - comment_user_verification
+  - comment_user_picture
+  - favicon
+  - logo
+  - node_user_picture

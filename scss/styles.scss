@@ -1,7 +1,13 @@
-$badass: #bada55;
+// Variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
 
-body {
-  margin: 0;
-  background-color: $badass;
-}
+// Main stylesheets
+@import "base.scss";
+@import "layout.scss";
+@import "theme.scss";
+@import "colours.scss";
+
+// Components
+@import "components/_navigation";
 
